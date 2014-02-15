@@ -10,4 +10,4 @@ module.exports = (robot) ->
     msg.send "那珂ちゃんはー、みんなのものなんだからー、そんなに触っちゃダメなんだよー？"
 
   robot.respond /DIE$/i, (msg) ->
-    msg.send "ちょっと長めのオフいただきまぁーす。おやすみなさーい。"
+    msg.send "2-4-11"
