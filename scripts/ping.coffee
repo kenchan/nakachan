@@ -14,3 +14,9 @@ module.exports = (robot) ->
 
   robot.hear /(アイドル|idol)/i, (msg) ->
     msg.reply "艦隊のアイドル、那珂ちゃんだよー。よっろしくぅ～！"
+
+  robot.hear /大型レシピ/, (msg) ->
+    msg.reply """
+    戦艦: 6000/4000/6000/3000
+    空母: 4000/2000/5000/5200
+    """
