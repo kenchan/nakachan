@@ -9,6 +9,9 @@ module.exports = (robot) ->
   robot.respond /PING$/i, (msg) ->
     msg.send "那珂ちゃんはー、みんなのものなんだからー、そんなに触っちゃダメなんだよー？"
 
+  robot.respond /ECHO (.*)$/i, (msg) ->
+    msg.send msg.match[1]
+
   robot.respond /(解体|カーン|DIE)/i, (msg) ->
     msg.reply "(カーン…カーン…カーン…) つ 2-4-11"
 
